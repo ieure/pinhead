@@ -14,9 +14,8 @@ To that end, the information here comes directly from the schematics
 for the part in question. Pin descriptions are identical to the ones
 in the schematics, minus minor typographical changes or clarification.
 
-## Pinout format
-
-Pinouts are in JSON.
+Pinouts are represented in JSON. I chose JSON because it is trivially
+readable by machines and reasonably readable by humans.
 
 ### General format
 
