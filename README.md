@@ -23,6 +23,11 @@ Each file contains a JSON object containing two keys. The value of the
 `pinout` key must be a string describing what the pinout is for. The
 second key is `conns`, which is an array of connector objects.
 
+The format is general enough to represent any kind of connector on any
+kind of device.
+
+Example:
+
 ```json
 {
     "pinout": "Asteroids",
