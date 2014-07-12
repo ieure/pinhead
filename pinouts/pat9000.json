@@ -1,11 +1,11 @@
 {
-    "pinout": "PAT 9000"
+    "pinout": "PAT 9000",
     "conns": [
         {"id": "P57",
          "type": "molex_mlx",
          "pitch": "0.84\" / 2.13mm",
          "num_pins": 15,
-         "desc": "Auxillary Connector 4"
+         "desc": "Auxillary Connector 4",
          "pins": {
              "1": "H CLK",
              "2": "H DIR",
@@ -25,7 +25,7 @@
          "type": "molex_mlx",
          "pitch": "0.84\" / 2.13mm",
          "num_pins": 12,
-         "desc": "Auxillary Connector 3"
+         "desc": "Auxillary Connector 3",
          "pins": {
              "1": "S1",
              "2": "S2",
@@ -43,7 +43,7 @@
          "type": "molex_mlx",
          "pitch": "0.84\" / 2.13mm",
          "num_pins": 12,
-         "desc": "Auxillary Connector 1"
+         "desc": "Auxillary Connector 1",
          "pins": {
              "1": "S7 UP",
              "2": "S7 DN",
@@ -56,12 +56,12 @@
              "9": "SWITCH ENABLE (Pin 9 of connector P58 and P59 are connected together)",
              "10": "+5V",
              "11": "GND"}
-        }
+        },
         {"id": "P60",
          "type": "molex_mlx",
          "pitch": "0.84\" / 2.13mm",
          "num_pins": 12,
-         "desc": "Auxillary Conncetor 2"
+         "desc": "Auxillary Connector 2",
          "pins": {
              "1": "+10.3V",
              "2": "+22V",
@@ -79,7 +79,7 @@
          "type": "molex_mlx",
          "pitch": "0.84\" / 2.13mm",
          "num_pins": 12,
-         "desc": "Raster Video Connector"
+         "desc": "Raster Video Connector",
          "pins": {
              "1": "COMPOSITE VIDEO (Positive black and white video, negative sync)",
              "2": "VIDEO RETURN (Signal ground)",
@@ -97,7 +97,7 @@
          "type": "molex_mlx",
          "pitch": "0.84\" / 2.13mm",
          "num_pins": 15,
-         "desc": "X-Y Video Connector"
+         "desc": "X-Y Video Connector",
          "pins": {
              "1": "RED VIDEO",
              "2": "GREEN VIDEO (Z VIDEO in black and white systems)",
@@ -117,7 +117,7 @@
         {"id": "P64",
          "type": "cannon_zif_dl",
          "num_pins": 156,
-         "desc": "Game A1"
+         "desc": "Game A1",
          "pins": {
              "A1": "S1 A*",
              "A2": "S1 B*",
@@ -270,7 +270,7 @@
         {"id": "P65",
          "type": "cannon_zif_dl",
          "num_pins": 156,
-         "desc": "Game A2"
+         "desc": "Game A2",
          "pins": {
              "A1": "S1 C",
              "A2": "S1 D",
@@ -372,7 +372,7 @@
         {"id": "P66",
          "type": "cannon_zif_dl",
          "num_pins": 156,
-         "desc": "Game B1"
+         "desc": "Game B1",
          "pins": {
              "A1": "S1 C*",
              "A2": "S1 D**",

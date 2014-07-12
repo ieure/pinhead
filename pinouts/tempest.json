@@ -1,5 +1,5 @@
 {
-    "pinout": "Tempest"
+    "pinout": "Tempest",
     "conns": [
         {"id": "P20",
          "type": "card_edge",
@@ -37,8 +37,8 @@
              "17": "Y out",
              "T":  "X out",
              "U":  "Y GND",
-             "16": "X GND",
-         },
+             "16": "X GND"}
+        },
         {"id": "P18",
          "type": "card_edge",
          "pitch": "3.96mm/.156",
@@ -58,7 +58,7 @@
              "10": "Zap 1",
              "9":  "Fire 1",
              "J":  "TB dir 1",
-             "H":  "TB clk 1"
+             "H":  "TB clk 1",
              "L":  "Zap 2",
              "K":  "Fire 2",
              "8":  "TB dir 2",
@@ -68,6 +68,6 @@
              "3":  "+22 VDC",
              "4":  "-22 VDC",
              "1":  "+5V ret",
-             "A":  "+5V ret",
+             "A":  "+5V ret"
          }}]}
 

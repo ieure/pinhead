@@ -1,5 +1,5 @@
 {
-    "pinout": "Centipede"
+    "pinout": "Centipede",
     "conns": [
         {"id": "P20",
          "type": "card_edge",
@@ -39,7 +39,7 @@
              "U": "1 Horiz dir",
              "N": "1 Horiz ck",
              "18": "1 Vert dir",
-             "P": "1 Vert ck"}}
+             "P": "1 Vert ck"}},
         {"id": "P19",
          "type": "card_edge",
          "pitch": "3.96mm/.156\"",
@@ -54,7 +54,7 @@
              "L": "Vid ret",
              "10": "V sync",
              "M": "H sync",
-             "12": "/C sync"
+             "12": "/C sync",
              "5": "JS1 right",
              "E": "JS1 left",
              "F": "JS2 down",

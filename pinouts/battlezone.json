@@ -1,5 +1,5 @@
 {
-    "pinout": "Battlezone"
+    "pinout": "Battlezone",
     "conns": [
         {"id": "P20",
          "type": "card_edge",

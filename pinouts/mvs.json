@@ -1,5 +1,5 @@
 {
-    "pinout": "MVS"
+    "pinout": "MVS",
     "conns": [
         {"id": "P1",
          "type": "card_edge",
@@ -50,9 +50,9 @@
              "24": "P1 C",
              "b":  "P2 C",
              "25": "P1 D",
-             "c": "P2 D"
+             "c": "P2 D",
              "26": "Select up",
-             "d": "Select down"
+             "d": "Select down",
              "27": "GND",
              "e":  "GND",
              "28": "GND",

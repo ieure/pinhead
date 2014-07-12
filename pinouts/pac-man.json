@@ -1,5 +1,5 @@
 {
-    "pinout": "Pac-Man"
+    "pinout": "Pac-Man",
     "conns": [
         {"id": "?",
          "type": "card_edge",
@@ -7,7 +7,7 @@
          "num_pins": 44,
          "desc": "Main connector",
          "pins": {
-             "1": "GND"
+             "1": "GND",
              "18": "+5V",
              "E": "+7.5VDC",
              "5": "+7.5VDC",
@@ -38,7 +38,7 @@
              "9": "CREDIT",
              "8": "COIN 2",
              "J": "COIN 1",
-             "14": "DOWN"
+             "14": "DOWN",
              "11": "RIGHT",
              "M": "LEFT",
              "N": "UP",

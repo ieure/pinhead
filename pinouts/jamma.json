@@ -1,5 +1,5 @@
 {
-    "pinout": "JAMMA"
+    "pinout": "JAMMA",
     "conns": [
         {"id": "P1",
          "type": "card_edge",

@@ -1,5 +1,5 @@
 {
-    "pinout": "Missile Command"
+    "pinout": "Missile Command",
     "conns": [
         {"id": "P20",
          "type": "card_edge",
@@ -38,12 +38,12 @@
              "9":  "/Left coin (N.O.)",
              "14": "Slam",
              "11": "L coin (cntr)"
-         }}
+         }},
         {"id": "P19",
          "type": "card_edge",
          "pitch": "3.96mm/.156\"",
          "num_pins": 24,
-         "desc": "Controls"
+         "desc": "Controls",
          "pins": {
              "H":  "Cocktail",
              "E":  "Fire 2 C (N.O.)",

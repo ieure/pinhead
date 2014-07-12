@@ -1,5 +1,5 @@
 {
-    "pinout": "Asteroids"
+    "pinout": "Asteroids",
     "conns": [
         {"id": "P20",
          "type": "card_edge",
@@ -7,9 +7,9 @@
          "num_pins": 44,
          "desc": "Main connector",
          "pins": {
-             "1": "GND"
-             "22", "-SENSE",
-             "21", "+SENSE",
+             "1": "GND",
+             "22": "-SENSE",
+             "21": "+SENSE",
              "A": "GND",
              "2": "+5v",
              "B": "+5v",
@@ -26,10 +26,10 @@
              "M": "Z out",
              "Y": "+5v",
              "6": "Start 2 (LED)",
-             "8", "Start 1 (LED)",
+             "8": "Start 1 (LED)",
              "N": "Start 1 (N.O.)",
              "P": "Start 2 (N.O.)",
-             "J": "GND play. 1 & st."
+             "J": "GND play. 1 & st.",
              "T": "Fire",
              "14": "Thrust",
              "S": "Rotate right",

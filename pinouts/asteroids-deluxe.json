@@ -1,5 +1,5 @@
 {
-    "pinout": "Asteroids Deluxe"
+    "pinout": "Asteroids Deluxe",
     "conns": [
         {"id": "P20",
          "type": "card_edge",
@@ -7,9 +7,9 @@
          "num_pins": 44,
          "desc": "Main connector",
          "pins": {
-             "1": "GND"
-             "22", "-SENSE",
-             "21", "+SENSE",
+             "1": "GND",
+             "22": "-SENSE",
+             "21": "+SENSE",
              "A": "GND",
              "2": "+5v",
              "B": "+5v",
@@ -26,7 +26,7 @@
              "M": "Z out",
              "Y": "+5v",
              "6": "/Start 2 (LED)",
-             "8", "/Start 1 (LED)",
+             "8": "/Start 1 (LED)",
              "12": "/Start 1 (N.O.)",
              "13": "/Start 2 (N.O.)",
              "T": "/Fire",
@@ -36,12 +36,12 @@
              "10": "/Shields",
              "19": "Inv X",
              "7": "Gnd player 2",
-             "16": "Inv Y"
+             "16": "Inv Y",
              "P": "/Coin L (N.O.)",
              "N": "/Coin C (N.O.)",
              "R": "/Coin R (N.O.)",
              "L": "/Self test",
-             "J": "GND player 1"
+             "J": "GND player 1",
              "9": "/Slam",
              "Z": "GND",
              "D": "/L. coin (cntr)",
