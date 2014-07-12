@@ -1,0 +1,58 @@
+{
+    "pinout": "Missile Command"
+    "conns": [
+        {"id": "P20",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 44,
+         "desc": "Main connector",
+         "pins": {
+             "1":  "+5V rtn",
+             "22": "-sense",
+             "21": "+sense",
+             "2":  "+5V reg",
+             "B":  "+5V reg",
+             "5":  "Audio 2 out",
+             "E":  "Audio 1 out",
+             "20": "+12VDC",
+             "19": "-5VDC",
+             "A":  "+5V rtn",
+             "10": "Red",
+             "M":  "Green",
+             "L":  "Blue",
+             "18": "/Comp sync",
+             "Z":  "Sw. common",
+             "Y":  "+5V out",
+             "H":  "Start /LED 2",
+             "13": "/Start 2 (N.O.)",
+             "P":  "Start /LED 1",
+             "15": "Start 1 (N.O.)",
+             "J":  "Fire 1 C (N.O.)",
+             "7":  "Fire 1 L (N.O.)",
+             "T":  "VTB dir 1",
+             "16": "VTB ck 1",
+             "U":  "HTB ck 1",
+             "17": "HTB dir 1",
+             "8":  "Fire 1 R (N.O.)",
+             "R":  "Test",
+             "9":  "/Left coin (N.O.)",
+             "14": "Slam",
+             "11": "L coin (cntr)"
+         }}
+        {"id": "P19",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 24,
+         "desc": "Controls"
+         "pins": {
+             "H":  "Cocktail",
+             "E":  "Fire 2 C (N.O.)",
+             "5":  "Fire 2 L (N.O.)",
+             "9":  "VTB dir 2",
+             "10": "VTB ck 2",
+             "L":  "HTB ck 2",
+             "K":  "HTB dir 2",
+             "D":  "Fire 2 R (N.O.)"
+         }}]}
+
+
