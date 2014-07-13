@@ -1,0 +1,151 @@
+{
+    "pinout": "Blue Print",
+    "conns": [
+        {"id": "J1",
+         "type": "molex_inline",
+         "pitch": "2.54mm / .100\"",
+         "num_pins": 10,
+         "desc": "Power",
+         "pins": {
+             "1": "GND",
+             "2": "GND",
+             "3": "GND",
+             "4": "GND",
+             "5": "KEY",
+             "6": "+5V",
+             "7": "+5V",
+             "8": "+5V",
+             "9": "+5V",
+             "9": "+5V",
+             "10": "+12V"
+         }
+        },
+        {"id": "J2",
+         "type": "molex_inline",
+         "pitch": "2.54mm / .100\"",
+         "num_pins": 10,
+         "desc": "Controls",
+         "pins": {
+             "6": "KEY",
+             "5": "PLAYER 2-UP",
+             "4": "PLAYER 2-RIGHT",
+             "3": "PLAYER 2-LEFT",
+             "2": "PLAYER 2-FAST",
+             "1": "TEST",
+             "7": "PLAYER 2-DOWN",
+             "8": "PLAYER 2-START",
+             "9": "PLAYER 1-DOWN",
+             "11": "PLAYER 1-UP",
+             "10": "PLAYER 1-RIGHT",
+             "12": "PLAYER 1-LEFT",
+             "13": "PLAYER 1-FAST",
+             "14": "TILT",
+             "15": "PLAYER 1-START",
+             "16": "1 COIN, 1 PLAY INPUT",
+             "17": "/RESET - CREDIT MULTIPLIER",
+             "18": "COIN METER",
+             "19": "SPEAKER OUT",
+             "20": "SPEAKER GROUND"
+         }
+        },
+        {"id": "J3",
+         "type": "molex_inline",
+         "pitch": "2.54mm / .100\"",
+         "num_pins": 10,
+         "desc": "Video",
+         "pins": {
+             "1": "/COMP SYNC",
+             "2": "/COMP SYNC",
+             "3": "KEY",
+             "4": "RED",
+             "5": "GREEN",
+             "6": "BLUE",
+             "7": "MONITOR GROUND"}
+        },
+        {"id": "J4",
+         "type": "ribbon",
+         "pitch": "2.54mm / .100\"",
+         "num_pins": 50,
+         "desc": "Board interconnect",
+         "pins": {
+             1 "GND"
+             2 "GND"
+             3 "N.U"
+             4 "N.U"
+             5 "/V3RR"
+             6 "/V3RW"
+             7 "N.U"
+             8 "N.U"
+             9 "N.U"
+             10 "N.U"
+             11 "2H"
+             12 "BA7"
+             13 "D7"
+             14 "BA6"
+             15 "D5"
+             16 "BA5"
+             17 "D4"
+             18 "BA4"
+             19 "D6"
+             20 "BA3"
+             21 "D3"
+             22 "BA2"
+             23 "D2"
+             24 "BA1"
+             25 "D1"
+             26 "BA0"
+             27 "DQ"
+             28 "G2-10"
+             29 "4H"
+             30 "G2-7"
+             31 "/1H"
+             32 "2G-15"
+             33 "N.U."
+             34 "MASTER FLIP"
+             35 "BLUE"
+             36 "GREEN"
+             37 "/V BLANK"
+             38 "N.U."
+             39 "RED"
+             40 "/COMP SYNC"
+             41 "/V1RR"
+             42 "/V2RR"
+             43 "/OBJR"
+             44 "/OBJW"
+             45 "/V2RW"
+             46 "/V1RW"
+             47 "/V3RAM"
+             48 "/V1RAM"
+             49 "/DEJRAM"
+             50 "/V2RAM"
+         }
+        }
+        {"id": "J5",
+         "type": "ribbon",
+         "pitch": "2.54mm / .100\"",
+         "num_pins": 20,
+         "desc": "Power",
+         "pins": {
+             "1": "GND",
+             "2": "GND",
+             "3": "GND",
+             "4": "GND",
+             "5": "GND",
+             "6": "GND",
+             "7": "GND",
+             "8": "GND",
+             "9": "GND",
+             "10": "GND",
+             "11": "+5V",
+             "12": "+5V",
+             "13": "+5V",
+             "14": "+5V",
+             "15": "+5V",
+             "16": "+5V",
+             "17": "+5V",
+             "18": "+5V",
+             "19": "+5V",
+             "20": "+5V"}
+        }
+    ]
+}
