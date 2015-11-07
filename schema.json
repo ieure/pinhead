@@ -1,0 +1,28 @@
+{"title": "Pinout",
+ "$schema": "http://json-schema.org/draft-04/schema#",
+ "type": "object",
+ "properties": {
+     "pinout": {"type": "string"},
+     "conns": {"type": "array",
+               "items": {
+                   "type": "object",
+                   "properties": {
+                       "id": {"type": "string",
+                              "title": "The connector ID"},
+                       "desc": {"type": "string",
+                                "title": "Description of this connector"},
+                       "type": {"type": "string",
+                                "title": "The type of connector",
+                                "enum": ["card_edge", "molex_inline",
+                                         "ribbon", "molex_mlx",
+                                         "cannon_zif_dl"]
+                               },
+                       "pitch": {"type": "string"},
+                       "num_pins": {"type": "integer",
+                                    "minimum": 1},
+                       "pins": {
+                           "type": "object"
+                       }
+                   }
+               }}
+ }}
