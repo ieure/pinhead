@@ -43,20 +43,20 @@
          "num_pins": 24,
          "desc": "Video & aux controls",
          "pins": {
-             "K": "GND",
              "1": "AUDIO 2",
-             "2": "AUDIO 1",
-             "B": "AUDIO GND",
-             "3": "LED 1",
-             "4": "LED 2",
-             "C": "COIN CNTR L",
-             "A": "COIN CNTR R",
-             "N": "GND",
-             "7": "/COMP SYNC",
-             "H": "GND",
              "10": "BLUE",
              "11": "GREEN",
-             "12": "RED"
+             "12": "RED",
+             "2": "AUDIO 1",
+             "3": "LED 1",
+             "4": "LED 2",
+             "7": "/COMP SYNC",
+             "A": "COIN CNTR R",
+             "B": "AUDIO GND",
+             "C": "COIN CNTR L",
+             "H": "GND",
+             "K": "GND",
+             "N": "GND"
          }}]}
 
 

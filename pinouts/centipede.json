@@ -47,21 +47,22 @@
          "desc": "Video & aux controls",
          "pins": {
              "1": "Audio 2",
+             "10": "V sync",
+             "12": "/C sync",
              "2": "Audio 1",
-             "K": "Red",
+             "4": "JS1 up",
+             "5": "JS1 right",
+             "6": "JS2 left",
+             "7": "JS2 right",
              "8": "Green",
              "9": "Blue",
-             "L": "Vid ret",
-             "10": "V sync",
-             "M": "H sync",
-             "12": "/C sync",
-             "5": "JS1 right",
              "E": "JS1 left",
              "F": "JS2 down",
-             "4": "JS1 up",
-             "7": "JS2 right",
-             "6": "JS2 left",
+             "H": "JS2 up",
              "J": "JS2 down",
-             "H": "JS2 up"}}]}
+             "K": "Red",
+             "L": "Vid ret",
+             "M": "H sync"
+         }}]}
 
 

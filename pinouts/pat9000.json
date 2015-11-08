@@ -521,6 +521,43 @@
              "c4":"X",
              "c5":"Y",
              "c6":"Z"}
+        },
+        {"id": "J500",
+         "type": "molex_mlx",
+         "pitch": "0.84\" / 2.13mm",
+         "num_pins": 15,
+         "desc": "Extender Plug P2",
+         "pins": {
+             "1": "S6 A (A2 G1)",
+             "2": "S6 B (A2 G2)",
+             "3": "S10 A (A2 G5)",
+             "4": "S10 B (A2 G6)",
+             "5": "S7 UP B JOYSTICK LEFT (A2 L1)",
+             "6": "S7 DN B JOYSTICK RIGHT (A2 L3)",
+             "7": "S8 UP B JOYSTICK UP (A2 L5)",
+             "8": "S8 DN B JOYSTICK DOWN (A2 M1)",
+             "9": "H POT B (A2 M3)",
+             "10": "V POT B (A2 M5)"
+         }
+        },
+        {"id": "J501",
+         "type": "molex_mlx",
+         "pitch": "0.84\" / 2.13mm",
+         "num_pins": 12,
+         "desc": "Extender Plug Aux 5/6",
+         "pins": {
+             "1": "AUX 5 A C",
+             "2": "AUX 5 A UP",
+             "3": "AUX 5 A DN",
+             "4": "AUX 5 B C",
+             "5": "AUX 5 B UP",
+             "6": "AUX 5 B DN",
+             "7": "AUX 6 A C",
+             "8": "AUX 6 A UP",
+             "9": "AUX 6 A DN",
+             "10": "AUX 6 B C",
+             "11": "AUX 6 B UP",
+             "12": "AUX 6 B DN"}
         }
     ]
 }
