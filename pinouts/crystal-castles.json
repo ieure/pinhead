@@ -1,0 +1,52 @@
+{
+    "pinout": "Crystal Castles",
+    "conns": [
+        {"id": "P20",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 44,
+         "desc": "22-pin double-sided .156 card edge connector",
+         "pins": {
+             "1": "+5V RTN",
+             "2": "+5V REG",
+             "8": "COIN CNTR R",
+             "9": "TRACKBALL LT.",
+             "15": "BLUE",
+             "16": "GREEN",
+             "17": "/COMP SYNC",
+             "18": "H SYNC",
+             "19": "AUDIO 2",
+             "21": "+SENSE",
+             "22": "-SENSE",
+             "A": "+5V RTN",
+             "B": "+5V REG",
+             "C": "+10.3V",
+             "J": "COIN CNTR L",
+             "S": "RED",
+             "T": "VID. RTN", 
+             "U": "V SYNC",
+             "W": "AUDIO 1",
+             "Y": "+5V",
+             "Z": "GND"
+         }
+        },
+        {"id": "P19",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 22,
+         "desc": "11-pin double-sided .156 card edge connector",
+         "pins": {
+             "5": "H CLK",
+             "6": "V CLK",
+             "7": "SELF TEST",
+             "8": "COIN AUX",
+             "9": "COIN L",
+             "E": "H DIR",
+             "F": "V DIR",
+             "H": "START 1/JUMP",
+             "J": "COIN R",
+             "L": "START 2/JUMP"
+         }
+        }
+    ]
+}
