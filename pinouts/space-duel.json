@@ -5,7 +5,7 @@
          "type": "card_edge",
          "pitch": "3.96mm/.156\"",
          "num_pins": 44,
-         "desc": "22-pin double-sided .156 card edge connector",
+         "desc": "Main connector",
          "pins": {
              "1": "+5V RTN",
              "2": "+5V REG",
@@ -38,6 +38,7 @@
              "S": "COIN AUX",
              "T": "SELF TEST",
              "U": "COIN R",
+             "V": "/RESET",
              "Y": "+5V",
              "Z": "+5V RTN"
          }},
@@ -45,7 +46,7 @@
          "type": "card_edge",
          "pitch": "3.96mm/.156\"",
          "num_pins": 24,
-         "desc": "12-pin double-sided .156 card edge connector",
+         "desc": "Secondary connector",
          "pins": {
              "1": "X GND",
              "2": "Y GND",
