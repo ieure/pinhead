@@ -3,6 +3,8 @@
  "type": "object",
  "properties": {
      "pinout": {"type": "string"},
+     "notes": {"type": "string",
+               "title": "Notes for this pinout"},
      "conns": {"type": "array",
                "items": {
                    "type": "object",
@@ -11,6 +13,8 @@
                               "title": "The connector ID"},
                        "desc": {"type": "string",
                                 "title": "Description of this connector"},
+                       "notes": {"type": "string",
+                                 "title": "Notes for this connector"},
                        "type": {"type": "string",
                                 "title": "The type of connector",
                                 "enum": ["card_edge", "molex_inline",

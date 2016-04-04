@@ -1,0 +1,50 @@
+{
+    "pinout": "Exidy B&W Drivers",
+    "notes": "Taken from Death Race, but should work for Destruction Derby & Alley Rally.",
+    "conns": [
+        {"id": "J1",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 12,
+         "desc": "Power",
+         "notes": "Pins connect through to solder side.",
+         "pins": {
+             "1": "GND",
+             "2": "+5V",
+             "3": "22VAC",
+             "4": "22VAC",
+             "5": "+5V",
+             "6": "GND"
+         }
+        },
+        {"id": "J2",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 44,
+         "desc": "Controls",
+         "notes": "Pins connect through to solder side.",
+         "pins": {
+             "1": "GND",
+             "2": "Speaker #1",
+             "3": "Speaker #1",
+             "4": "Speaker #2",
+             "5": "Speaker #2",
+             "6": "Start Game",
+             "7": "Coin Drop",
+             "9": "Turn A Left Car",
+             "10": "Turn B Left Car",
+             "11": "Gas 1 (MSB) Left Car",
+             "12": "Gas 0 (LSB) Left Car",
+             "13": "Reverse Left Car",
+             "14": "Turn A Right Car",
+             "15": "Turn B Right Car",
+             "16": "Gas 1 (MSB) Right Car",
+             "17": "Gas 0 (MSB) Right Car",
+             "18": "Reverse Right Car",
+             "20": "Video",
+             "21": "Video Return",
+             "22": "+5V"
+         }
+        }
+    ]
+}
