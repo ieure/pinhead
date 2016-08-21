@@ -39,7 +39,7 @@
              "14": "Turn A Right Car",
              "15": "Turn B Right Car",
              "16": "Gas 1 (MSB) Right Car",
-             "17": "Gas 0 (MSB) Right Car",
+             "17": "Gas 0 (LSB) Right Car",
              "18": "Reverse Right Car",
              "20": "Video",
              "21": "Video Return",
