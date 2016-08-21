@@ -1,23 +1,29 @@
 ```
   _____  _____ __   _ _     _ _______ _______ ______
- |_____]   |   | \  | |_____| |______ |_____| |     \
+ |_____|   |   | \  | |_____| |______ |_____| |     \
  |       __|__ |  \_| |     | |______ |     | |_____/
 ```
 
 Pinhead is a colletion of machine-readable descriptions of classic
-coin-op game pinouts. While much of this information is available
-elsewhere, the goals of Pinhead are somewhat different. The primary
-goal is to collect *accurate* and *complete* information; quality is
-more important than quantity.
+coin-op game pinouts.  Much of this information has been compiled
+already, the quality is highly variable.  While it’s usually enough to
+get a board running, many of the fine details are missing, such as
+`/RESET` lines for Atari boards, player 2 controls, cocktail mode
+jumpers, and so on. The goal of Pinhead is to collect *accurate* and
+*complete* information; quality is more important than quantity.
 
-To that end, the information here comes directly from the schematics
-for the part in question. Pin descriptions are identical to the ones
-in the schematics, minus minor typographical changes or clarification.
+The information here mostly comes directly from the schematics for the
+part in question, but even this often doesn’t provide a complete
+picture, so additional sources are sometimes used. Pin descriptions
+are identical to the schematics wherever possible, minus minor
+typographical changes or clarification.
 
 Pinouts are represented in JSON. I chose JSON because it is trivially
 readable by machines and reasonably readable by humans.
 
 ### General format
+
+The complete schema is defined in [`schema.json`](schema.json).
 
 Each file contains a JSON object containing two keys. The value of the
 `pinout` key must be a string describing what the pinout is for. The
@@ -75,7 +81,6 @@ open a pull request.
 ## Copyright
 
 Pinhead contains the electronic embodiment of facts; facts are not
-copyrightable. I place all original work Pinhead represents (the file
-format and description, this document) into the public domain.
-
-
+copyrightable. To the extent that Pinhead represents original work
+(the file format and description, this document), I place it into the
+public domain.
