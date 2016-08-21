@@ -67,7 +67,7 @@ Every key must be populated. Example:
  "type": "card_edge",
  "pitch": "3.96mm/.156\"",
  "num_pins": 44,
- "desc": "22-pin double-sided .156 card edge connector"
+ "desc": "22-pin double-sided .156 card edge connector",
  "pins": {"1": "GND",
           "2": "+5V"}
 }
