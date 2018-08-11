@@ -8,7 +8,7 @@
          "desc": "Main connector",
          "pins": {
              "18": "+10.3V UNREG",
-             "E": "+10.3V UNREG"
+             "E": "+10.3V UNREG",
              "4": "-22V",
              "W": "-22V",
              "3": "+22V",
