@@ -1,0 +1,61 @@
+{
+    "pinout": "Quantum",
+    "conns": [
+        {"id": "P20",
+         "type": "card_edge",
+         "pitch": "3.96mm/.156\"",
+         "num_pins": 44,
+         "desc": "Main connector",
+         "pins": {
+             "18": "+10.3V UNREG",
+             "E": "+10.3V UNREG"
+             "4": "-22V",
+             "W": "-22V",
+             "3": "+22V",
+             "X": "+22V",
+             "2": "+5V",
+             "B": "+5V",
+             "21": "+SENSE",
+             "1": "+5V RET",
+             "A": "+5V RET",
+             "Z": "+5V RET",
+             "22": "-SENSE",
+
+             "10": "SELFTEST",
+             "J": "COINL",
+             "9": "COINR",
+             "M": "START2",
+             "11": "START1",
+             "L": "COINAUX",
+
+             "H": "1HORIZDIR",
+             "C": "2HORIZDIR",
+             "6": "1HORIZCLK",
+             "8": "2HORIZCLK",
+             "F": "1VERTDIR",
+             "D": "2VERTDIR",
+             "5": "1VERTCLK",
+             "7": "2VERTCLK",
+
+             "14": "PL2LED",
+             "N": "PL1LED",
+             "15": "COINCONTL",
+             "S": "COINCONTR",
+
+             "T": "RED",
+             "17": "BLUE",
+             "V": "GREEN",
+             "K": "GND (RED)",
+             "P": "GND (BLUE)",
+             "R": "GND (GREEN)",
+
+             "12": "/AUDIO",
+             "13": "AUDIO +",
+
+             "19": "X OUT",
+             "16": "X GROUND",
+
+             "20": "Y OUT",
+             "U": "YGND"
+         }
+        }]}
